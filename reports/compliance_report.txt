@@ -1,0 +1,43 @@
+```json
+{
+  "resolved_issues": [],
+  "unresolved_issues": [
+    {
+      "file": "sample_policy.txt",
+      "section": "3. Statements",
+      "issue": "The policy does not explicitly define how least privilege access is enforced or monitored.",
+      "severity": "medium",
+      "recommendation": "Include specific details on processes or tools used to enforce least privilege access, along with monitoring and review mechanisms."
+    },
+    {
+      "file": "sample_policy.txt",
+      "section": "3. Statements",
+      "issue": "The ownership of assets is mentioned but lacks specific guidelines for assigning ownership or maintaining updated records.",
+      "severity": "medium",
+      "recommendation": "Document guidelines for assigning asset ownership, maintaining records, and periodically validating ownership."
+    },
+    {
+      "file": "sample_policy.txt",
+      "section": "3. Statements",
+      "issue": "Information security roles are mentioned but the scope, responsibilities, and reporting lines are not defined.",
+      "severity": "high",
+      "recommendation": "Clearly define the roles, responsibilities, and reporting lines for information security personnel, including separation of duties where appropriate."
+    },
+    {
+      "file": "sample_policy.txt",
+      "section": "General",
+      "issue": "The policy does not include procedures for regular review and updates.",
+      "severity": "high",
+      "recommendation": "Add a section outlining a regular review schedule for the policy and responsibilities for updates based on business and compliance needs."
+    },
+    {
+      "file": "sample_policy.txt",
+      "section": "General",
+      "issue": "The policy does not reference specific compliance requirements or controls from ISO 27001 and SOC 2.",
+      "severity": "high",
+      "recommendation": "Integrate explicit references to applicable ISO 27001 controls and SOC 2 criteria, ensuring alignment with compliance frameworks."
+    }
+  ],
+  "cross_references": []
+}
+```

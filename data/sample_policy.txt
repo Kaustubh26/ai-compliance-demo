@@ -1,0 +1,12 @@
+Sample Company Security Policy
+
+1. Purpose
+This security policy defines how the organization protects its information assets and complies with ISO 27001 and SOC 2.
+
+2. Scope
+The policy applies to all employees and contractors.
+
+3. Statements
+- Access to systems must be granted based on least privilege.
+- All assets must have defined ownership.
+- Information security roles should be clearly assigned.
