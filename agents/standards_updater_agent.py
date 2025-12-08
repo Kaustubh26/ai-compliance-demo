@@ -1,4 +1,7 @@
 import os
+
+
+
 from azure_config import get_ai_client
 from azure_config import (
     AZURE_SEARCH_ENDPOINT,
@@ -23,6 +26,10 @@ import re
 
 from utils.file_utils import make_safe_key
 
+AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
+AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
+AZURE_OPENAI_API_VERSION = os.getenv("AZURE_OPENAI_API_VERSION")
+AZURE_OPENAI_MODEL = os.getenv("AZURE_OPENAI_MODEL")
 
 def extract_controls_with_llm(text, source_name):
     client = get_ai_client()
@@ -47,7 +54,7 @@ TEXT:
 """
 
     resp = client.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-4o-mini",
         messages=[{"role": "user", "content": prompt}]
     )
 

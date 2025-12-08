@@ -10,3 +10,5 @@ The policy applies to all employees and contractors.
 - Access to systems must be granted based on least privilege.
 - All assets must have defined ownership.
 - Information security roles should be clearly assigned.
+-privilege should be limited
+-jjj
